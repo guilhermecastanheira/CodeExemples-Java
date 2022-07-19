@@ -7,3 +7,4 @@ This repository will aim to have code examples in Java.
 
 - SpeedConverter
 - MegaBytesConverter
+- LeapYearCalculator
