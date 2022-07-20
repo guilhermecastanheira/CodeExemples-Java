@@ -1,3 +1,5 @@
+package udemy;
+
 /**
  * In this exercise we calculated the megabytes and the remaining kilobytes from the kilobytes parameters
  * Obs.: exercise from Udemy course 'Java Programming Masterclass covering Java 11 & Java 17' by Tim Buchalka
