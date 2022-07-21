@@ -3,13 +3,13 @@ package dio;
 /**
  * In this example we create a POO code
  */
-public class Car {
+public class Car extends Vehicle {
     String color;
     String model;
     int    gastank_capacity;
 
     Car(){
-
+        //nothing to do
     }
 
     Car(String color, String model, int gastank_capacity){
@@ -45,5 +45,10 @@ public class Car {
 
     double tankValue(double gas_price_liter) {
         return gastank_capacity * gas_price_liter;
+    }
+
+    @Override
+    public void wheels_number() {
+        System.out.println("4");
     }
 }
